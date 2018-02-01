@@ -5,6 +5,7 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
+  font-family: "Roboto Slab", serif;
   box-sizing: border-box;
 
   -moz-text-size-adjust: 100%;
@@ -15,4 +16,19 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+img {
+  position: absolute;
+}
+
+p {
+  position: relative;
+  color: white;
+  border-radius:
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
 }
